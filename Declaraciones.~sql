@@ -1,0 +1,44 @@
+//CONVERSIONES EXPLICITAS
+
+/*DECLARE
+tiempo_comienzo       CHAR(5);
+tiempo_fin            CHAR(5);
+tiempo_transcurrido   CHAR(5);
+
+BEGIN
+  SELECT TO_CHAR(SYSDATE, 'SSSSS') INTO tiempo_comienzo
+  FROM sys.dual;
+  
+  SELECT TO_CHAR(SYSDATE, 'SSSSS') INTO tiempo_fin
+  FROM sys.dual;
+  
+  tiempo_transcurrido := tiempo_fin - tiempo_comienzo;
+  
+  DBMS_OUTPUT.PUT_LINE('El tiempo transcurrido fue: '|| tiempo_transcurrido);
+  
+  END;*/
+  
+//DECLARACIONES
+
+/*
+  EJEMPLO DE DECLARACIONES
+  
+  cumple DATE;
+  cuenta := 0;
+  
+  Al declarar, podemos asignar un valor inicial e incluso asignar expresiones
+  
+  pi REAL := 3.1415;
+  radio REAL := 1;
+  area REAL := pi*radio*2;
+  
+  Por defecto las variables se inicializan en NULL
+  
+  cumple DATE;
+  cumple DATE := NULL;
+  
+  Las expresiones anteriores son equivalentes
+  
+  
+  
+*/

@@ -1,0 +1,25 @@
+//ASIGNACIONES
+
+DECLARE
+contador INTEGER;
+
+BEGIN
+  contador := contador + 1; --El contador es NULL porque se inicializó por defecto en nulo.
+  END;
+  
+  
+-- Valores Booleanos: TRUE, FALSE & NULL
+
+DECLARE
+realizado BOOLEAN;
+
+BEGIN
+  realizado := FALSE;
+  WHILE NOT realizado LOOP
+    
+  END LOOP;
+  
+--Se puede usar SELECT INTO para asignar valores a una variable. Para cada elemento de la lista SELECT
+--debe existir un tipo compatible en la lista INTO.
+
+

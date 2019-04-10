@@ -67,3 +67,24 @@ LOOP
     EXIT exterior WHEN --Sale de los dos bucles LOOP
     END LOOP;
     END LOOP exterior;
+    
+    
+--WHILE-LOOP
+
+WHILE condicion LOOP
+  secuencia_de_instrucciones;
+  END LOOP;
+  
+  
+--FOR-LOOP
+FOR contador IN [REVERSE] valor_minimo..valor_maximo LOOP
+  secuencia_de_instrucciones;
+  END LOOP;
+  
+
+FOR i IN 1..3 LOOP --Asigna los valores 1,2,3 a i
+  secuencia_de_instrucciones; --Ejecución 3 veces
+  END LOOP;
+  
+
+  
